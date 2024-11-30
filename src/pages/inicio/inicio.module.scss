@@ -1,0 +1,99 @@
+.primeiraSessaoInicio {
+  height: 75vh;
+  background: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  padding: 6%;
+  background-color: rgb(0, 0, 0);
+  background-image: url("../../assets/BannerInicio.png");
+
+  h2 {
+    color: #fff;
+    font-size: 40px;
+    width: 28%;
+    font-weight: 700;
+  }
+}
+
+.porqueDoarSection {
+  display: flex;
+  flex-direction: column;
+  height: 85vh;
+  justify-content: space-evenly;
+  align-items: center;
+
+  h2 {
+    font-size: 40px;
+    font-weight: 500;
+    color: #005695;
+    width: 92%;
+  }
+}
+
+.containerCards {
+  display: flex;
+  height: 40vh;
+  width: 90%;
+  justify-content: space-evenly;
+
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #0157944d;
+    width: 20%;
+    border-radius: 10px;
+
+    p {
+      font-size: 22px;
+      font-weight: 400;
+      text-align: center;
+      width: 85%;
+    }
+  }
+}
+
+@media (max-width: 780px) {
+  .primeiraSessaoInicio {
+    height: 50vh;
+    padding: 0;
+    background-size: cover;
+    background-position: 45%;
+    justify-content: center;
+
+    h2 {
+      font-size: 28px;
+      text-align: center;
+      width: 80%;
+    }
+  }
+
+  .porqueDoarSection {
+    height: 170vh;
+
+    h2 {
+      margin-top: 3vh;
+      font-size: 30px;
+      width: auto;
+    }
+  }
+
+  .containerCards {
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 160vh;
+    
+    section {
+      width: 95%;
+      height: 35vh;
+
+      p {
+        font-size: 20px;
+        width: 80%;
+      }
+    }
+  }
+}
