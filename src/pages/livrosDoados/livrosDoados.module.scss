@@ -33,20 +33,19 @@
 }
 
 @media (max-width: 780px) {
-  .livrosDoadosSection {
-    height: 80vh;
+  .livrosDoadosSection{
+    h2 {
+      font-size: 25px;
+    }
   }
-
   .containerCards {
-    height: 70vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
 
     section {
-      width: 90%;
-      height: 35vh;
+      width: 75%;
+      height: 40vh;
     }
   }
 }

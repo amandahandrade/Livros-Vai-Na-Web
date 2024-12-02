@@ -71,28 +71,31 @@
   }
 
   .porqueDoarSection {
-    height: 170vh;
+    height: 145vh;
 
     h2 {
-      margin-top: 3vh;
       font-size: 30px;
-      width: auto;
+      text-align: center;
     }
   }
 
   .containerCards {
+    height: 130vh;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    height: 160vh;
-    
+
     section {
-      width: 95%;
-      height: 35vh;
+      width: 80%;
+      height: 30vh;
 
       p {
-        font-size: 20px;
+        font-size: 18px;
         width: 80%;
+      }
+
+      img {
+        width: 18%;
       }
     }
   }
