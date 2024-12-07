@@ -28,8 +28,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 15px;
-  font-weight: 700;
+  text-align: center;
+
+  p {
+    font-size: 15px;
+    font-weight: 700;
+  }
 }
 
 @media (max-width: 780px) {
@@ -54,6 +58,25 @@
       width: 75%;
       font-size: 13px;
       text-align: center;
+    }
+  }
+}
+
+@media (min-width: 780px) and (max-width: 1475px) {
+  .contatosFooter {
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 18px;
+
+    nav {
+      width: 50%;
+    }
+  }
+
+  .copyright {
+    p {
+      width: 80%;
+      font-size: 18px;
     }
   }
 }
