@@ -37,6 +37,11 @@
   width: 90%;
   justify-content: space-evenly;
 
+  &:hover >:not(:hover) {
+    opacity: 0.8;
+    filter: blur(1.3px)
+  }
+
   section {
     display: flex;
     flex-direction: column;
@@ -57,12 +62,8 @@
     &:hover {
       transform: scale(1.05);
       transition: transform 0.5s;
-      background-color: #005695;
-
-      p {
-        color: #fff;
-      }
     }
+
   }
 }
 

@@ -10,7 +10,7 @@ header {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  width: 22%;
+  width: 25%;
 
   img {
     width: 15%;
@@ -38,6 +38,11 @@ ul {
     font-weight: 400;
     text-decoration: none;
     color: #fff;
+    transition: font-size 0.3s ease;
+
+    &:hover {
+      font-size: 22px;
+    }
   }
 }
 
@@ -45,7 +50,7 @@ ul {
   border: solid #fff 2px;
   border-radius: 20px;
   margin-right: 1%;
-  width: 18%;
+  width: 22%;
   height: 6vh;
   display: flex;
   justify-content: space-evenly;
@@ -118,6 +123,7 @@ ul {
 
   .navHeader {
     width: 60%;
+    
     .link {
       font-size: 22px;
     }
