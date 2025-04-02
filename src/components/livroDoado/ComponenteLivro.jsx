@@ -10,7 +10,7 @@ export default function ComponenteLivroDoado() {
     // Criar função assíncrona para fazer requisição da API
     const dadosLivros = async () => {
         try {
-            const dados = await axios.get("https://api-livros-pcfv.onrender.com/livros");
+            const dados = await axios.get("https://api-livros-g3w2.onrender.com/livros");
             console.log(dados.data);
             // Atualizamos a variavel de estado(livros)
             setLivros(dados.data);
@@ -18,8 +18,6 @@ export default function ComponenteLivroDoado() {
         } catch (error) {
             console.error("Erro ao buscar os livros:", error);
         }
-
-
     };
 
     useEffect(() => {
